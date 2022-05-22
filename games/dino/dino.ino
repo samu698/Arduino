@@ -13,10 +13,10 @@
 #define OLED_RESET 8
 Adafruit_SSD1306 display(WIDTH, HEIGHT, &SPI, OLED_RESET, OLED_CS, OLED_DC);
 
-#define UP_BTN_PIN A3
+#define UP_BTN_PIN A0
 #define DOWN_BTN_PIN A1
 #define RIGHT_BTN_PIN A2
-#define LEFT_BTN_PIN A0
+#define LEFT_BTN_PIN A3
 
 #define UP_BTN 0
 #define DOWN_BTN 1
